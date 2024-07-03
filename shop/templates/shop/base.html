@@ -23,13 +23,14 @@
                         {% endfor %}
                     </ul>
                 </li>
+                <li class="nav-item"><a class="nav-link" style="color: #20c997" href="{% url 'add_product' %}">Add Product</a></li>
             </ul>
             <form class="d-flex">
                 <input type="text" name="search" class="form-control" placeholder="Search product">
                 <button class="btn btn-outline-primary" type="submit">
                     <i class="bi-search-fill me-1"></i>
                     Search
-                    
+
                 </button>
             </form>
         </div>
